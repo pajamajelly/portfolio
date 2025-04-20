@@ -1,0 +1,139 @@
+.hero {
+  position: relative;
+  background-image: url("https://i.imgur.com/UeTmNC5.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filler {
+  position: relative;
+  background-image: url("https://i.imgur.com/gNCy2Nh.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 30px;
+  color: black;
+  z-index: 1;
+}
+
+.off-text {
+  color: #e2b4bd;
+}
+
+.start-button {
+  display: block;
+  border-radius: 40px;
+  width: 40%;
+  max-width: 200px;
+  margin: 10px auto;
+}
+
+#heroimg {
+  position: absolute;
+  max-width: 40%;
+  max-height: 40%;
+  top: 100px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.carousel-caption {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h5 {
+  color: whitesmoke;
+}
+
+#footer-section {
+  background-color: #424b54;
+  color: #ffffff;
+  height: 100px;
+}
+
+#skills-section {
+  background-color: lightcoral;
+  margin-bottom: 5px;
+}
+
+#mission-target,
+#skills-target,
+#contact-target {
+  position: relative;
+  top: -100%;
+}
+
+#icon {
+  font-size: 3rem;
+  text-shadow: 1px 1px whitesmoke;
+}
+
+.mobile {
+  width: 30%;
+  box-shadow: 2px 2px whitesmoke;
+}
+
+.social {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 20px;
+}
+
+.btn-social:hover {
+  color: lightblue;
+  font-size: 20px;
+}
+
+.card:hover {
+  color: lightcoral;
+}
+
+.caption {
+  color: rgb(8, 26, 39);
+  background-color: #e6ebf62d;
+  align-items: first baseline;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-text {
+    bottom: 20px;
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 5px;
+  }
+
+  .start-button {
+    width: 50%;
+  }
+}
