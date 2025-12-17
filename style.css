@@ -20,7 +20,7 @@
 
 #hero {
   position: relative;
-  background-image: url("images/");
+  background-image: url("images/Graham_Motion_002.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,6 +29,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .filler {
@@ -43,9 +44,8 @@
 
 h1 {
   color: white;
-  text-shadow: 2px 2px 4px black;
-  font-weight: 700;
-  text-align: center;
+  text-shadow: 2px 2px black;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-text {
@@ -137,6 +137,16 @@ h5 {
   color: rgb(8, 26, 39);
   background-color: #e6ebf62d;
   align-items: first baseline;
+}
+
+#projects {
+  position: relative;
+  background-image: url("images/Graham_Motion_002.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
 }
 
 @media (max-width: 768px) {
