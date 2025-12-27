@@ -1,171 +1,50 @@
-/* Css Reset */ 
+/* Css reset */
 
-/* root variables */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-/* Global styles */
-
-
-.hero {
-  position: relative;
-  background-image: url("https://i.imgur.com/UeTmNC5.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
-#hero {
-  position: relative;
-  background-image: url("images/Graham_Motion_002.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-
-.filler {
-  position: relative;
-  background-image: url("https://i.imgur.com/gNCy2Nh.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 70vh;
+body {
+	line-height: 1;
 }
-
-h1 {
-  color: white;
-  text-shadow: 2px 2px black;
+ol, ul {
+	list-style: none;
 }
- 
-.intro {
-  font-size: 24px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  margin: 30px;
+blockquote, q {
+	quotes: none;
 }
-
-.hero-text {
-  position: absolute;
-  bottom: 30px;
-  color: black;
-  z-index: 1;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
-
-.off-text {
-  color: #e2b4bd;
-}
-
-.start-button {
-  display: block;
-  border-radius: 40px;
-  width: 40%;
-  max-width: 200px;
-  margin: 10px auto;
-}
-
-#heroimg {
-  position: absolute;
-  max-width: 40%;
-  max-height: 40%;
-  top: 100px;
-}
-
-.carousel-item img {
-  object-fit: cover;
-  object-position: center;
-  height: 50vh;
-  overflow: hidden;
-}
-
-.carousel-caption {
-  color: whitesmoke;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-h5 {
-  color: whitesmoke;
-}
-
-#footer-section {
-  background-color: #424b54;
-  color: #ffffff;
-  height: 100px;
-}
-
-
-#mission-target,
-#skills-target,
-#contact-target {
-  position: relative;
-  top: -100%;
-}
-
-#icon {
-  font-size: 3rem;
-  text-shadow: 1px 1px whitesmoke;
-}
-
-.mobile {
-  width: 30%;
-  box-shadow: 2px 2px whitesmoke;
-}
-
-.social {
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 20px;
-}
-
-.btn-social:hover {
-  color: lightblue;
-  font-size: 20px;
-}
-
-.card:hover {
-  color: lightcoral;
-}
-
-.caption {
-  color: rgb(8, 26, 39);
-  background-color: #e6ebf62d;
-  align-items: first baseline;
-}
-
-#projects {
-  position: relative;
-  background-image: url("images/Graham_Motion_002.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 70vh;
-}
-
-@media (max-width: 768px) {
-  .hero {
-    height: 60vh;
-  }
-
-  .hero-text {
-    bottom: 20px;
-    font-size: 10px;
-  }
-
-  h1 {
-    font-size: 5px;
-  }
-
-  .start-button {
-    width: 50%;
-  }
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
