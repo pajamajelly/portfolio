@@ -48,3 +48,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+:root {
+
+	/*  colors */
+
+	/* fonts */
+
+	/* box shadows */
+}
+
+/* global styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Start of webpage css */
+
+/* Media Queries */
